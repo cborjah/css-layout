@@ -1,9 +1,92 @@
 /* default styling */
-
+body{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration:underline;
+}
+button {
+  background-color: #F7F7F7;
+  border: none;
+  color: #707070;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 2px;
+}
+button:hover {
+  color:black;
+  border:1px black solid;
+}
 /* nav */
-
+nav {
+  position:relative;
+  float:right;
+  left: -10px;
+}
+li {
+  display: inline-block;
+  padding: 5px;
+}
+.user_pic {
+  height: 25px;
+  width: 25px;
+}
 /* main-content */
-
+.main-content{
+  position:relative;
+  margin: auto;
+  width: 50%;
+  margin-top: 10px;
+  padding-top:200px;
+}
+#logo {
+  display: flex;
+  padding:auto;
+  margin:auto;
+}
+input {
+  position:relative;
+  padding:auto;
+  margin:auto;
+  margin-top:20px;
+  display:flex;
+  border: 1px #4D90FE solid;
+  height:35px;
+  width:450px;
+}
+.btn-container {
+  margin-top:20px;
+  text-align: center;
+}
 /* footer */
+footer{
+  position: fixed;
+  bottom: 0px;
+  /*display: inline;*/
+}
+.align-right {
+  position: fixed;
+  bottom: 0px;
+  right:0px;
+  /*text-align:right;*/
+  float:right;
 
+}
+
+.align-left {
+  /*float:left;*/
+  padding-right:350px;
+  text-align: left;
+  float:left;
+
+}
 /* helper classes */
+
+body {
+  background-color: #100f8;
+}
